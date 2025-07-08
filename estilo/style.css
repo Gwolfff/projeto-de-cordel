@@ -52,7 +52,7 @@ header > p > a:hover{
     text-decoration: underline;
 }
 
-section.normal {
+section.normal{
     background-color: white;
     padding-top: 25vh;
     padding-bottom: 33vh;
@@ -61,4 +61,46 @@ section.normal {
 section p {
     font-family: var(--fonte3);
     font-size: 39px;
+}
+
+section.image {
+    background-color: rgba(62, 196, 223, 0.57);
+    color: white;
+    padding-top: 25vh;
+    padding-bottom: 33vh;
+    height: 110vh;
+    background-image: url('/imagens/background001.jpg'); 
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+}
+
+section.image > p{
+    background-color: rgba(0, 0, 0, 0.503);
+    height: 470px;
+    width: 515px;
+    padding: 7px;
+}
+
+section#img2 {
+    background-image: url('/imagens/background002.jpg');
+}
+
+footer {
+    font-family: var(--fonte2);
+    font-weight: bolder;
+    font-size: 23px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 4px;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
 }
