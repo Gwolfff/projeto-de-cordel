@@ -52,10 +52,14 @@ header > p > a:hover{
     text-decoration: underline;
 }
 
+section {
+    padding: 70px 70px 70px 50px;
+}
+
+
 section.normal{
     background-color: white;
-    padding-top: 25vh;
-    padding-bottom: 33vh;
+
 }
 
 section p {
@@ -66,12 +70,12 @@ section p {
 section.image {
     background-color: rgba(62, 196, 223, 0.57);
     color: white;
-    padding-top: 25vh;
-    padding-bottom: 33vh;
-    height: 110vh;
+
     background-image: url('/imagens/background001.jpg'); 
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
 
 }
 
