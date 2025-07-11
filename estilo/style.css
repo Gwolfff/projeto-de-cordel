@@ -73,9 +73,7 @@ section p {
 }
 
 section.image {
-    background-color: rgba(62, 196, 223, 0.57);
     color: white;
-
     background-image: url('/imagens/background001.jpg'); 
     background-repeat: no-repeat;
     background-position: right center;
