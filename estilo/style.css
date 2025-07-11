@@ -35,12 +35,14 @@ header h1 {
     font-family: var(--fonte2);
     font-weight: bolder;
     font-size: 80px;
-    padding: 70px 30px 10px 30px;
+    font-variant: small-caps;
+    padding-top: 50px;
 }
 
 header p {
     font-family: var(--fonte1);
     font-weight: bold;
+    padding-bottom: 50px;
 }
 
 header > p > a {
@@ -53,7 +55,10 @@ header > p > a:hover{
 }
 
 section {
-    padding: 70px 70px 70px 50px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 4em;
+    padding-left: 30px;
 }
 
 
@@ -92,16 +97,16 @@ section#img2 {
 
 footer {
     font-family: var(--fonte2);
-    font-weight: bolder;
     font-size: 23px;
     text-align: center;
     color: white;
     background-color: black;
-    padding: 4px;
+    padding: 10px;
 }
 
 footer > p > a {
     color: white;
+    font-weight: bolder;
     text-decoration: none;
 }
 
