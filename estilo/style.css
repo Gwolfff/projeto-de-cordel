@@ -83,8 +83,7 @@ section.image {
 
 section.image > p{
     background-color: rgba(0, 0, 0, 0.503);
-    height: 470px;
-    width: 515px;
+    width: 415px;
     padding: 7px;
 }
 
