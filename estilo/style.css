@@ -32,8 +32,7 @@ header {
 
 header h1 {
     font-family: var(--fonte2);
-    font-weight: bolder;
-    font-size: 80px;
+    font-size: 10vw;
     font-variant: small-caps;
     padding-top: 50px;
 }
@@ -56,8 +55,14 @@ header > p > a:hover{
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 4em;
+    line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
+section > P {
+    padding-bottom: 2em;
 }
 
 
@@ -66,29 +71,31 @@ section.normal{
 
 }
 
-section p {
-    font-family: var(--fonte3);
-    font-size: 39px;
-}
-
 section.image {
+    background-color: rgb(51, 51, 51);
     color: white;
-    background-image: url('../imagens/background001.jpg'); 
-    background-repeat: no-repeat;
-    background-position: right center;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.527) ;
     background-size: cover;
     background-attachment: fixed;
-
 }
 
 section.image > p{
     background-color: rgba(0, 0, 0, 0.503);
-    width: 415px;
-    padding: 7px;
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
 }
 
-section#img2 {
+section#img01 {
+    background-image: url('../imagens/background001.jpg'); 
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+section#img02 {
     background-image: url('../imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
 }
 
 footer {
